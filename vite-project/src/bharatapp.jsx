@@ -13,6 +13,9 @@ function BharatsApp(){
         <>
             <button onClick={handleOnClick}>Click me heheheh</button>
             {count === 0 ? <h1>Nothing To render, please hit the button</h1> : <h1>Count is {count}</h1>}
+            <button onClick={handleOnClick}>Click me heheheh</button>
+            {count === 0 ? <h1>Nothing To render, please hit the button</h1> : <h1>Count is {count}</h1>}
+
         </>
     )
 
